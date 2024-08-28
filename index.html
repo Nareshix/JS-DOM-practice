@@ -41,7 +41,14 @@
 
         document.querySelector('#item').value = '';
 
-        
+        const li = document.createElement('li');
+        const span = document.createElement('span');
+        const button = document.createElement('button');
+
+        span.innerText = value;
+        button.innerText = 'delete';
+
+
       })
     </script>
   </body>
