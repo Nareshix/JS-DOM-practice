@@ -31,10 +31,14 @@
     </ul>
 
     <script>
-      const addItem = document.querySelector('button');
-      const ul = document.querySelector('ul');
+        const addItem = document.querySelector('button');
+        const ul = document.querySelector('ul');
       
-
+        const input = document.createElement('input');
+        addItem.addEventListener('click', () => {
+        const value = document.querySelector('#item').value;
+        console.log(value);
+      })
     </script>
   </body>
 </html>
